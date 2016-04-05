@@ -1,0 +1,38 @@
+{
+  "name": "u.optiscroll.js",
+  "version": "0.1.0",
+  "description": "u.js plugin for Optiscroll",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iamso/u.optiscroll.js.git"
+  },
+  "authors": [
+    "Steve Ottoz <so@dev.so>"
+  ],
+  "main": "u.optiscroll.js",
+  "license": "MIT",
+  "homepage": "https://github.com/iamso/u.optiscroll.js.git",
+  "ignore": [
+    ".bower.json",
+    ".editorconfig",
+    ".git",
+    ".gitattributes",
+    ".gitignore",
+    "demo",
+    "doc",
+    "extensions",
+    "grunt",
+    "Gruntfile.js",
+    "node_modules",
+    "src"
+  ],
+  "keywords": [
+    "ujs",
+    "u.js",
+    "optiscroll"
+  ],
+  "dependencies": {
+    "u.js": "0.*",
+    "optiscroll": "2.*"
+  }
+}

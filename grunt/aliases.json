@@ -1,0 +1,14 @@
+{
+  "default": [
+    "watch"
+  ],
+  "src": [
+    "jshint",
+    "notify:src"
+  ],
+  "dist": [
+    "jshint",
+    "update_json",
+    "notify:dist"
+  ]
+}

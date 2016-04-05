@@ -1,0 +1,15 @@
+{
+  "name": "u.optiscroll.js",
+  "repository": "iamso/u.optiscroll.js",
+  "description": "u.js plugin for Optiscroll",
+  "version": "0.1.0",
+  "keywords": [
+    "ujs",
+    "u.js",
+    "optiscroll"
+  ],
+  "scripts": [
+    "u.optiscroll.js"
+  ],
+  "license": "MIT"
+}

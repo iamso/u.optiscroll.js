@@ -1,6 +1,6 @@
 {
   "name": "u.optiscroll.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "u.js plugin for Optiscroll",
   "repository": {
     "type": "git",
@@ -9,7 +9,7 @@
   "authors": [
     "Steve Ottoz <so@dev.so>"
   ],
-  "main": "u.optiscroll.js",
+  "main": "dist/u.optiscroll.min.js",
   "license": "MIT",
   "homepage": "https://github.com/iamso/u.optiscroll.js.git",
   "ignore": [
@@ -29,10 +29,12 @@
   "keywords": [
     "ujs",
     "u.js",
+    "jquery",
     "optiscroll"
   ],
   "dependencies": {
     "u.js": "0.*",
+    "jquery": "*",
     "optiscroll": "2.*"
   }
 }

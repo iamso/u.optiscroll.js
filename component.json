@@ -2,14 +2,20 @@
   "name": "u.optiscroll.js",
   "repository": "iamso/u.optiscroll.js",
   "description": "u.js plugin for Optiscroll",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "keywords": [
     "ujs",
     "u.js",
+    "jquery",
     "optiscroll"
   ],
   "scripts": [
-    "u.optiscroll.js"
+    "dist/u.optiscroll.js",
+    "dist/u.optiscroll.min.js",
+    "dist/u.optiscroll.min.js.map",
+    "dist/jquery.optiscroll.js",
+    "dist/jquery.optiscroll.min.js",
+    "dist/jquery.optiscroll.min.js.map"
   ],
   "license": "MIT"
 }

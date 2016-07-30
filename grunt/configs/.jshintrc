@@ -21,8 +21,9 @@
   "white"    : false,
   "loopfunc" : true,
   "-W058"    : true,
-  "boss"     : true,
   "globals"   : {
-    "µ"      : true
+    "u"      : true,
+    "$"      : true,
+    "Optiscroll": true
   }
 }

@@ -1,16 +1,3 @@
-/**
- * ujs plugin
- * create instance of Optiscroll
- * and when called again you can call functions
- * or change instance settings
- *
- * ```
- * $(el).optiscroll({ options })
- * $(el).optiscroll('method', arg)
- * ```
- */
-
-;(function ($) {
   'use strict';
 
   var pluginName = 'optiscroll';
@@ -29,7 +16,7 @@
 
       // start new optiscroll instance
       if(!inst) {
-        inst = new window.Optiscroll(this, options || {});
+        inst = new Optiscroll(this, options || {});
         $el.data(pluginName, inst);
       }
       // allow exec method on instance
@@ -41,5 +28,3 @@
       }
     });
   };
-
-})(ujs);

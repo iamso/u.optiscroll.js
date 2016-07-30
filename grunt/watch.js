@@ -1,7 +1,7 @@
 module.exports = {
   src: {
     files: [
-      '*.js'
+      'src/**/*.js'
     ],
     tasks: ['src'],
     options: {
